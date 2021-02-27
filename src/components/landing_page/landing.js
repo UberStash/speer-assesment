@@ -1,9 +1,13 @@
+import ImageSlider from "./image-slider";
+import Try from "./try-button";
+
 function Landing() {
-    return (
-      <div className="App">
-        <h1>Test Landing</h1>
-      </div>
-    );
-  }
-  
-  export default Landing;
+  return (
+    <div className="App">
+      <ImageSlider></ImageSlider>
+      <Try></Try>
+    </div>
+  );
+}
+
+export default Landing;
